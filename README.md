@@ -17,13 +17,24 @@ O objetivo principal deste repositório é acompanhar a evolução da gramática
 - **Funções Built-in:** Destaque especial para funções nativas de I/O (`ler`, `escrever`, `lerc`, `escrevers`, etc.).
 - **Deteção de Literais:** Formatação correta de números, strings e comentários.
 
-## 📦 Como Instalar (Localmente)
-Para testar esta extensão no teu ambiente local do VS Code:
+## 📦 Como Instalar
 
-1. Clona este repositório: `git clone https://github.com/teu-user/mocp-vscode.git`
+### Método 1: Testar Temporariamente (Modo de Desenvolvimento)
+Para testar esta extensão num ambiente isolado:
+1. Clona este repositório: `git clone https://github.com/teu-user/turing-vscode-mocp.git`
 2. Abre a pasta do projeto no VS Code.
 3. Pressiona `F5` para abrir uma nova janela do VS Code (Extension Development Host).
 4. Nessa nova janela, abre qualquer ficheiro `.mocp` e vê a magia acontecer!
+
+### Método 2: Instalar Permanentemente (Local)
+Para manteres o suporte à linguagem MOCP sempre ativo no teu editor:
+1. Clona ou faz o download deste repositório.
+2. Copia a pasta principal do projeto.
+3. Abre o Explorador de Ficheiros do teu sistema e navega para a pasta de extensões do VS Code:
+   - **Windows:** `%USERPROFILE%\.vscode\extensions`
+   - **macOS / Linux:** `~/.vscode/extensions`
+4. Cola a pasta copiada lá dentro.
+5. Reinicia o VS Code. Os teus ficheiros `.mocp` terão agora *syntax highlighting* nativamente!
 
 ---
 *Construído com dedicação pela Equipa Turing.* 💻

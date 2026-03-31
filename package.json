@@ -1,0 +1,25 @@
+{
+  "name": "mocp-support",
+  "displayName": "MOCP Support",
+  "description": "Syntax highlighting para a linguagem MOCP.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mocp",
+      "aliases": ["MOCP", "mocp"],
+      "extensions": [".mocp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mocp",
+      "scopeName": "source.mocp",
+      "path": "./syntaxes/mocp.tmLanguage.json"
+    }]
+  }
+}

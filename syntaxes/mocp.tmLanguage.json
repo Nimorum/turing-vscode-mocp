@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "MOCP",
+  "patterns": [
+    { "include": "#keywords" },
+    { "include": "#types" },
+    { "include": "#builtins" },
+    { "include": "#strings" },
+    { "include": "#comments" },
+    { "include": "#numbers" }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [{
+        "name": "keyword.control.mocp",
+        "match": "\\b(se|senao|enquanto|para|retornar)\\b"
+      }]
+    },
+    "types": {
+      "patterns": [{
+        "name": "entity.name.type.mocp",
+        "match": "\\b(inteiro|real|vazio)\\b"
+      }]
+    },
+    "builtins": {
+      "patterns": [{
+        "name": "support.function.builtin.mocp",
+        "match": "\\b(principal|ler|lerc|lers|escrever|escreverc|escreverv|escrevers)\\b"
+      }]
+    },
+    "strings": {
+      "name": "string.quoted.double.mocp",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [{
+        "name": "constant.character.escape.mocp",
+        "match": "\\\\."
+      }]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.mocp",
+          "match": "//.*"
+        },
+        {
+          "name": "comment.block.mocp",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [{
+        "name": "constant.numeric.mocp",
+        "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+      }]
+    }
+  },
+  "scopeName": "source.mocp"
+}
