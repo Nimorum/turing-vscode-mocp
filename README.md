@@ -7,7 +7,7 @@ Este projeto foi desenvolvido no âmbito da Unidade Curricular de **Compilação
 
 **Desenvolvido pela Equipa Turing:**
 - João Fialho
-- Joao Pereira
+- João Pereira
 
 O objetivo principal deste repositório é acompanhar a evolução da gramática MOCP e fornecer uma ferramenta visual de apoio à construção do compilador Front-End (ANTLR) e Back-End da equipa.
 
