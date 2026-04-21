@@ -43,5 +43,6 @@ Para manteres o suporte à linguagem MOCP sempre ativo no teu editor:
 4. Cola a pasta copiada lá dentro.
 5. Reinicia o VS Code. Os teus ficheiros `.mocp` terão agora *syntax highlighting* nativo.
 
+
 ---
 *Construído com dedicação pela comunidade da Universidade Aberta.* 💻
